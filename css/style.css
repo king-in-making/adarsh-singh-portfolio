@@ -2,7 +2,7 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 
@@ -115,6 +115,8 @@ body {
 .home img {
     animation: floatimg 4s ease-in-out infinite;
 }
+
+
 
 @keyframes floatimg {
     0% {
