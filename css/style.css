@@ -474,3 +474,9 @@ footer .link-group a:hover {
     color: #fff;
     animation: pulse 3s infinite;
 }
+
+@media only screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden !important;
+    }
+}
